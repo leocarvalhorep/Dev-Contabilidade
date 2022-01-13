@@ -8,6 +8,155 @@
 .upper-case {
      background-image: url("./dev.png");
      background-repeat: no-repeat;
-     height: 90vh;
+     background-size: cover;
+     height: 85vh;
+     padding-top: 25px;
+     padding-left: 35px;
+}
+.upper-case img {
+    position: absolute;
+    opacity: 0.75;
 }
 
+
+.titulo-cabecalho {
+    font-size: 24px;
+    color: #FFFFFF;   
+    display: inline;
+}
+
+.link-cabecalho {
+    font-size: 14px;
+    color: #FFFFFF; 
+    text-decoration: none;
+    display: inline;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 58px;
+    color: #FFFFFF ;
+    position: relative;
+    top: 250px;
+    margin-left: 35px;
+}
+
+form {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    float: right;
+    padding: 30px;
+    margin-top: 150px;
+    margin-right: 300px;
+    position: relative;
+    bottom: 60px;
+
+}
+
+input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+textarea {
+    display: block;
+    height: 130px;
+    width: 250px;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.titulo-formulario {
+    font-size: 24;
+    margin-bottom:30 ;
+    text-align: center;
+}
+
+label {
+    font-size: 14px ;
+    color: ;
+}
+
+input {
+    display: block;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    
+
+}
+
+button {
+    width: 250px ;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #40BB15;
+    color: #FFFFFF;
+
+}
+
+.caixa-central {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.titulo-meio {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px;
+}
+
+.titulo-card {
+    background: #219653;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px  0px 0px;
+
+}
+
+ul {
+   padding: 20px;
+
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.caixa-inferior {
+    background-color: #1f1e70;
+   
+}
+
+.titulo-inferior {
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+}
+
+.paragrafo-inferior {
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+}
