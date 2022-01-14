@@ -15,10 +15,7 @@
      padding-top: 25px;
      padding-left: 35px;
 }
-.upper-case img {
-    position: absolute;
-    opacity: 0.75;
-}
+
 
 
 .titulo-cabecalho {
@@ -49,16 +46,27 @@ h1 {
 }
 
 form {
+    opacity: 0;
+    transition: opacity 1s linear;
     background-color: #FFFFFF;
     border-radius: 10px;
     float: right;
-    padding: 70px;
+    padding: 15px;
+    width: 20vw;
     margin-top: 150px;
     margin-right: 150px;
-    position: relative;
-    bottom: 60px;
-
+    position: static;
+    bottom: 60px; 
+    justify-content: center;
+ 
 }
+
+.mostrar-formulario {
+    opacity: 1;
+    
+}
+
+
 
 input{
     display: block;
@@ -79,9 +87,11 @@ textarea {
     padding-left: 10px;
     outline: none;
     font-size: 14px;
+    margin-left: 50px;
 }
 
 .titulo-formulario {
+
     font-size: 24px;
     padding-bottom: 20px;
     text-align: center;
@@ -90,6 +100,7 @@ textarea {
 label {
     font-size: 14px ;
     padding-bottom: 10px;
+    margin-left: 52px;
     
 }
 
@@ -102,6 +113,8 @@ input {
     padding-left: 10px;
     outline: none;
     font-size: 14px;
+    margin-left: 52px;
+
     
     
 
@@ -113,6 +126,21 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
+    background-color: #40BB15;
+    color: #FFFFFF;
+    margin-left: 52px;
+    margin-bottom: 10px;
+
+}
+
+.fechar-form {
+    width: 40px ;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    margin-left: 310px;
+    margin-right: 320px;
+    border-radius: 20px;
     background-color: #40BB15;
     color: #FFFFFF;
 

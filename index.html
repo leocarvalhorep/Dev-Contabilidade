@@ -19,28 +19,34 @@
             <h2 class="titulo-cabecalho">Dev Contábil</h2>
             <a href="#titulo-inferior" class="link-cabecalho">Quem somos</a>
             <a href="#titulo-meio" class="link-cabecalho">Serviços</a>
-            <a href="" class="link-cabecalho">Contato</a>
+            <a href="" class="link-cabecalho" onclick="chamaoabacate(); return false" >Contato</a>
         </div>
 
         <h1>Dev Contábil</h1>
-        <form>
-            <h3 class="titulo-formulario">Entre em Contato</h3>
-
-            <label>
-            Nome
-                <input placeholder="Digite seu nome">
-            </label>
-
-            <label>
-            Email
-                <input placeholder="Digite seu E-mail">
-            </label>
-            <label>
-            Fale Conosco
-                <textarea placeholder="Qual é a sua Dúvida?"></textarea>
-            </label>
-            <button>Enviar</button>
-        </form>
+        
+        
+        
+        
+            <form  id="formulario-contato" action="https://formsubmit.co/leonardolcar@icloud.com" method="POST" >
+            
+                <button class="fechar-form" onclick="estadoinicial()" type="reset"><strong>X</strong></button>
+            
+                <h3 class="titulo-formulario">Entre em Contato</h3>
+                <label>
+                Nome
+                    <input type="text" name="nome" placeholder="Digite seu nome" required >
+                </label>
+                <label>
+                Email
+                    <input type="email" name="email" placeholder="Digite seu E-mail" required >
+                </label>
+                <label>
+                Fale Conosco
+                    <textarea name="info" placeholder="Qual é a sua Dúvida?"></textarea>
+                </label>
+                <button type="submit">Enviar</button>
+            </form>
+        
 
     </div>
 
@@ -98,5 +104,20 @@
 
         </div>
 </body>
+
+<script> 
+    let formulario = document.getElementById("formulario-contato")
+
+    let refresh = document.refresh
+
+    function chamaoabacate(){
+        formulario.className = "mostrar-formulario"
+    }
+
+    function estadoinicial() {
+        formulario.className = "form"
+    }
+    
+</script>
 
 </html>
