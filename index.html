@@ -8,11 +8,12 @@
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">   
     <title>Dev Contábil</title>
 </head>
 
 <body>
+   
     <div class="upper-case">
 
         <div class="cabecalho">
@@ -27,7 +28,7 @@
         
         
         
-            <form  id="formulario-contato" action="https://formsubmit.co/leonardolcar@icloud.com" method="POST" >
+            <form  id="formulario-contato" action="https://formsubmit.co/leonardolcar@icloud.com" method="POST">
             
                 <button class="fechar-form" onclick="estadoinicial()" type="reset"><strong>X</strong></button>
             
@@ -105,19 +106,7 @@
         </div>
 </body>
 
-<script> 
-    let formulario = document.getElementById("formulario-contato")
+<script src="script.js"></script>
 
-    let refresh = document.refresh
-
-    function chamaoabacate(){
-        formulario.className = "mostrar-formulario"
-    }
-
-    function estadoinicial() {
-        formulario.className = "form"
-    }
-    
-</script>
 
 </html>
