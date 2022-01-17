@@ -34,6 +34,8 @@
     cursor: pointer;
 }
 
+
+
 h1 {
     font-size: 58px;
     color: #FFFFFF ;
@@ -138,7 +140,7 @@ button {
     height: 40px;
     cursor: pointer;
     border: none;
-    margin-left: 310px;
+    margin-left: 315px;
     margin-right: 320px;
     border-radius: 20px;
     background-color: #40BB15;
